@@ -1,0 +1,10 @@
+<?xml version="1.0"  encoding="ISO-8859-1"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure.dtd">
+<Configure id="wac" class="org.eclipse.jetty.webapp.WebAppContext">
+	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
+		<Arg></Arg>
+		<Arg>mySpecialValue</Arg>
+		<Arg type="java.lang.Integer">4000</Arg>
+		<Arg type="boolean">true</Arg>
+	</New>
+</Configure>

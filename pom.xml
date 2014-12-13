@@ -94,6 +94,7 @@
 				<configuration>
 					<runTarget>Hello.html</runTarget>
 					<copyWebapp>true</copyWebapp>
+					<superDevMode>OFF</superDevMode>
 					<modules>
 						<module>com.vishal.gwt.gwtTest.Hello</module>
 					</modules>
